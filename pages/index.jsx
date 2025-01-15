@@ -18,7 +18,7 @@ const Index = () => {
             <div className="col-lg-8">
               <div className="hero-content wow fadeInLeft delay-0-2s">
                 <h1>
-                  Auberon<span>Agency</span> <i></i>
+                  Auberon<span></span> <i></i>Agency
                 </h1>
               </div>
             </div>

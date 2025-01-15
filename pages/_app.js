@@ -1,5 +1,6 @@
 import PreLoader from "@/src/layout/PreLoader";
 import "@/styles/globals.css";
+import "@/styles/fonts.css";
 // Import CSS files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -37,7 +38,7 @@ export default function App({ Component, pageProps }) {
         />
         {/* Google Fonts */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
         {/* Flaticon */}

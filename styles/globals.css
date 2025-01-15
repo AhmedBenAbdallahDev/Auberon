@@ -2,6 +2,37 @@
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
 @import "swiper/css/scrollbar";
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap');
+
+/* Override all font families to use Urbanist */
+* {
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif !important;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Urbanist', sans-serif !important;
+    font-weight: 700;
+}
+
+button, input, select, textarea {
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+/* Preserve Font Awesome and other icon fonts */
+.fa,
+.fas,
+.far,
+.fal,
+.fab,
+.flaticon {
+    font-family: inherit;
+}
+
 .main-menu .navbar-collapse li ul {
   transition: 0.3s all;
   display: unset;

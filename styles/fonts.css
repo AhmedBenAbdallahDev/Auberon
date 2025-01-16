@@ -26,6 +26,8 @@ button, input, select, textarea {
 .far,
 .fal,
 .fab,
+[class^="flaticon-"],
+[class*=" flaticon-"],
 .flaticon {
-    font-family: inherit !important;
+    font-family: inherit;
 } 

@@ -42,7 +42,7 @@ export default function App({ Component, pageProps }) {
           rel="stylesheet"
         />
         {/* Flaticon */}
-        <link rel="stylesheet" href="assets/css/flaticon.min.css" />
+        <link rel="stylesheet" href="assets/fonts/flaticon_ygency.css" />
         {/* Font Awesome */}
         <link rel="stylesheet" href="assets/css/fontawesome-5.14.0.min.css" />
         {/* Bootstrap */}
